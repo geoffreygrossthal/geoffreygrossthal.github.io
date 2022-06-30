@@ -1,25 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!--
+  Programmer: Geoffrey Grossthal
+  Program:    My personal website
+  Date:       6/22/2022
+ -->
 
+<!-- The declaration is not an HTML tag. It is information to the browser about what document type to expect.
+In HTML5, the <!DOCTYPE> declaration is simple:-->
+<!DOCTYPE html>
+
+<!--Tells the browser what langauge the html is written in-->
+<html lang="en">
+  
+  <!--Meta data used by the document-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Title of Page-->
     <title>Projects</title>
+
+    <!--Include styles from styles.css-->
     <link rel="stylesheet" href="styles.css" />
+
+    <!--Include styles from fontawsome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
       integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
       crossorigin="anonymous"
     />
+
+    <!--Include styles from stylesheet-->
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
 
-  <!--Navigation bar on top-->
+  <!--Body of website-->
   <body>
+
+    <!--Navigation bar on top-->
     <nav class="navbar">
       <div class="navbar__container">
         <div class="navbar__toggle" id="mobile-menu">
