@@ -1,0 +1,109 @@
+<!--
+  Programmer: Geoffrey Grossthal
+  Program:    My personal website
+  Date:       6/22/2022
+ -->
+
+<!-- The declaration is not an HTML tag. It is information to the browser about what document type to expect.
+In HTML5, the <!DOCTYPE> declaration is simple:-->
+<!DOCTYPE html>
+
+<!--Tells the browser what langauge the html is written in-->
+<html lang="en">
+  
+  <!--Meta data for document-->
+  <head>
+
+    <!--Characters allowed for enocding the document UTF-8 allows many characters-->
+    <!--meta key word is for meta data not visble to users on the browser-->
+    <meta charset="UTF-8" />
+    <!--User's visable area of the web page-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Title of the document-->
+    <title>Resume</title>
+
+    <!--Includes the type of the document (stylesheet) and name styles.css-->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!--Includes another style sheet from a website-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <!--Includes another style sheet from a website-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- Navigation bar on top -->
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/resume.html" class="navbar__links">Resume</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links">Projects</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/" class="button">Home</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!--Main body of Resume-->
+    <div class="resume">
+      <div class="resume__container">
+        <div class="resume__content">
+
+          <h1>Education</h1>
+            <p>Arizona State Univeristy - B.S., Computer Science (2022 - 2024)</p>
+            <br>•
+            </p>
+            <p>Mesa Community College - A.S, Computer Science (2019 - 2022)</p>
+            <br>• President Honors Scholar
+            <br>• NJCAA Award of Excellence for Freshman of the Year
+            </p>
+
+          <br>
+          <br>
+          <br>
+
+          <h1>Work Experience</h1>
+            <p>Starbucks, Barista (April 2020 - Present)</p>
+            <br>• Assist supervisors with duties and responsibilities and help operate the
+            <br>floor in efficient team-oriented manor. Helped store achieve number
+            <br>one for customer connections in the district. 
+            </p>
+            <br>
+            <p>YMCA, Lifeguard (Summer 2018 & Summer 2019)</p>
+            <br>• Worked with the aquatics team to provide a safe and welcoming
+            <br>environment for guests. Trained to provide emergency medical
+            <br>assistance.
+            </p>
+
+          <br>
+          <br>
+          <br>
+
+          <h1>Certifications</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
