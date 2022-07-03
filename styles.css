@@ -5,6 +5,7 @@
   font-family: 'Kumbh Sans', sans-serif;
 }
 
+/*Navigation Bar*/
 .navbar {
   background: #131313;
   height: 60px;
@@ -84,6 +85,7 @@
   transition: all 0.3s ease;
 }
 
+/*Mobile Navigation Bar*/
 @media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;
@@ -174,6 +176,7 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
 
 /* Main Page */
 .main {
@@ -332,6 +335,7 @@
   }
 }
 
+
 /* Biography Section Main Page */
 .biography {
   background: #131313;
@@ -370,6 +374,7 @@
   color: #fff;
 }
 
+/* Mobile Biography Section Main Page */
 @media screen and (max-width: 960px) {
   .biography {
     height: 1600px;
@@ -395,7 +400,6 @@
     font-size: 1.5rem;
   }
 }
-
 
 
 /* Resume CSS */
