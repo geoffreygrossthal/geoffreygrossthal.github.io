@@ -457,7 +457,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 250vh; /*Was 90 testing 150*/
+    height: 310vh; 
   }
 
   .resume__content {
