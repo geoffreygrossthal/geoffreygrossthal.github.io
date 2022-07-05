@@ -399,6 +399,7 @@
   }
 
   .biography p {
+    text-align: center; /*Was not there previously*/
     margin-top: 1.5rem; /*Was 1*/
     font-size: 1.5rem;
   }
