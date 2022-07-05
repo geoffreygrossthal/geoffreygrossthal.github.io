@@ -384,7 +384,7 @@
   }
 
   .biography h1 {
-    font-size: 8rem; /*Was 2*/
+    font-size: 2rem; 
     margin-top: 12rem;
   }
 }
@@ -457,7 +457,7 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 310vh; 
+    height: 250vh; /*Was 310*/
   }
 
   .resume__content {
