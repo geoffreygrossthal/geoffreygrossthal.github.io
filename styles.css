@@ -86,7 +86,7 @@
   transition: all 0.3s ease;
 }
 
-/*Mobile Navigation Bar*/
+/*Mobile Responsive Navigation Bar */
 @media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;
@@ -339,7 +339,7 @@
 
 
 
-/* Biography Section Main Page */
+/* Biography */
 .biography {
   background: #131313;
   display: flex;
@@ -377,14 +377,14 @@
   color: #fff;
 }
 
-/* Mobile Biography Section Main Page */
+/* Mobile Responsive Biography */
 @media screen and (max-width: 960px) {
   .biography {
     height: 1600px;
   }
 
   .biography h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 12rem;
   }
 }
@@ -400,13 +400,13 @@
 
   .biography p {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
 
 
-/* Resume Section */
+/* Resume */
 .resume {
   background-color: #141414;
 }
