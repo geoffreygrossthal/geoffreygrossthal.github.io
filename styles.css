@@ -384,8 +384,8 @@
   }
 
   .biography h1 {
-    font-size: 3rem;
-    margin-top: 2rem;
+    font-size: 2rem;
+    margin-top: 12rem;
   }
 }
 
@@ -395,11 +395,11 @@
   }
 
   .biography h1 {
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
 
   .biography p {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.5rem;
   }
 }
