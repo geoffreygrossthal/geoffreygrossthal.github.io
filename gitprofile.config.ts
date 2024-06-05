@@ -180,7 +180,7 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: false,
+    displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
