@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['geoffreygrossthal/my-project1', 'geoffreygrossthal/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['geoffreygrossthal/LeetCode', 'geoffreygrossthal/Algorithms'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['geoffreygrossthal/LeetCode', 'geoffreygrossthal/Algorithms'], // List of repository names to display. example: ['geoffreygrossthal/my-project1', 'geoffreygrossthal/my-project2']
       },
     },
     external: {
@@ -49,8 +49,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
-    },
-  },
+    },  },
   seo: {
     title: 'Portfolio of Geoffrey Grossthal',
     description: '',
@@ -87,6 +86,7 @@ const CONFIG = {
     'C++',
     'Java',
     'Python',
+    'Swift',
     'SQL',
     'JavaFX',
     'Swift UI',
@@ -99,17 +99,24 @@ const CONFIG = {
   experiences: [
     {
       company: 'Amazon',
-      position: 'Intern',
+      position: 'Operations Intern',
       from: 'May 2024',
-      to: 'Jul 2024',
-      companyLink: 'https://example.com',
+      to: 'July 2024',
+      companyLink: 'https://www.aboutamazon.com/',
     },
     {
       company: 'Mesa Community College',
       position: 'Student Learning Facilitator',
       from: 'August 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.mesacc.edu/',
+    },
+    {
+      company: 'Amazon',
+      position: 'Operations Intern',
+      from: 'May 2023',
+      to: 'July 2023',
+      companyLink: 'https://www.aboutamazon.com/',
     },
   ],
   certifications: [
@@ -136,22 +143,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: '',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -232,11 +239,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };
