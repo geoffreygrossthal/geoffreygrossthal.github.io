@@ -208,7 +208,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     )}
                     <AvatarCard
                       profile={profile}
-                      loading={false}
+                      loading={loading}
                       avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                       resumeFileUrl={sanitizedConfig.resume.fileUrl}
                     />
