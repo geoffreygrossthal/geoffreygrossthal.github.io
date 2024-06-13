@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
       ],
     },  },
@@ -99,21 +99,21 @@ const CONFIG = {
   experiences: [
     {
       company: 'Amazon',
-      position: 'Operations Intern',
+      position: 'Intern',
       from: 'May 2024',
       to: 'July 2024',
       companyLink: 'https://www.aboutamazon.com/',
     },
     {
       company: 'Mesa Community College',
-      position: 'Student Learning Facilitator',
+      position: 'Computer Science Tutor',
       from: 'August 2022',
       to: 'Present',
       companyLink: 'https://www.mesacc.edu/',
     },
     {
       company: 'Amazon',
-      position: 'Operations Intern',
+      position: 'Intern',
       from: 'May 2023',
       to: 'July 2023',
       companyLink: 'https://www.aboutamazon.com/',
@@ -176,7 +176,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dim',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
