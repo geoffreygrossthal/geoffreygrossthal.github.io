@@ -121,10 +121,10 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Agile Methodology Job Simulation',
+      body: '',
+      year: 'June 2024',
+      link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/ZZswQd6xGydd758vz_Cognizant_4nrtQu2KwbFihq4s5_1718836386714_completion_certificate.pdf',
     },
   ],
   educations: [
