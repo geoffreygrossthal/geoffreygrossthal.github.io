@@ -56,7 +56,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'https://www.linkedin.com/in/geoffrey-grossthal',
+    linkedin: 'geoffrey-grossthal',
     twitter: '',
     mastodon: '',
     researchGate: '',
