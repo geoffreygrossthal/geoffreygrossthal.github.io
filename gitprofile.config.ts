@@ -84,6 +84,7 @@ const CONFIG = {
   skills: [
     'C',
     'C++',
+    'C#',
     'Java',
     'Python',
     'Swift',
@@ -99,7 +100,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'Amazon',
-      position: 'Intern',
+      position: 'Operations Management Intern',
       from: 'May 2024',
       to: 'July 2024',
       companyLink: 'https://www.aboutamazon.com/',
@@ -113,7 +114,7 @@ const CONFIG = {
     },
     {
       company: 'Amazon',
-      position: 'Intern',
+      position: 'Operations Management Intern',
       from: 'May 2023',
       to: 'July 2023',
       companyLink: 'https://www.aboutamazon.com/',
